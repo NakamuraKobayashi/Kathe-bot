@@ -7,7 +7,13 @@ module.exports = (client) => {
     client.emojis.cache.find((emoji) => emoji.name === emojiName)
 
   const emojis = {
-
+    WL1: 'World Level 1',
+    WL2: 'World Level 2',
+    WL3: 'World Level 3',
+    WL4: 'World Level 4',
+    WL5: 'World Level 5',
+    WL6: 'World Level 6',
+    WL7: 'World Level 7',
   }
 
   const reactions = []
