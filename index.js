@@ -25,6 +25,7 @@ client.on('ready', async () => {
   console.log('The client is ready!')
 
   loadCommands(client)
+  roleClaim(client)
 })
 
 client.login(process.env.DJS_TOKEN)
