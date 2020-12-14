@@ -5,7 +5,7 @@ module.exports = {
   commands: ['help', 'h'],
   description: "Describes all of this bot's commands",
   callback: (message, arguments, text) => {
-    let reply = 'I am the tutorial bot, here are my supported commands:\n\n'
+    let reply = 'My Name is Katheryne, I Am Here to Help you out ***Travaler***\n\n'
 
     const commands = loadCommands()
 
