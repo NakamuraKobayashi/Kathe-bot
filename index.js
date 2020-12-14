@@ -1,4 +1,5 @@
 const Discord = require('discord.js')
+const roleClaim = require('./role-claim')
 const client = new Discord.Client()
 const loadCommands = require('./commands/load-commands')
 
