@@ -1,9 +1,6 @@
 const Discord = require('discord.js')
 
 module.exports = {
-    commands: 'next',
-    minArgs: 0,
-    maxArgs: 0,
     callback: (message, arguments, text) => {
         const test102 = new Discord.MessageEmbed()
         .setColor('#2CC4DB')
