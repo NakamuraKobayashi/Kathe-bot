@@ -7,6 +7,7 @@ const mongo = require('./mongo.js')
 const { Mongoose } = require('mongoose')
 
 const config = require('./config.json')
+const welcome = require('./welcome')
 
 //Client Check Log
 client.on('ready', async () => {
@@ -14,6 +15,7 @@ client.on('ready', async () => {
 
   loadCommands(client)
   roleClaim(client)
+  welcome(client)
 })
 
 client.login(process.env.DJS_TOKEN)
