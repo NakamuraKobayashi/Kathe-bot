@@ -6,7 +6,7 @@ module.exports = {
     minArgs: 0,
     maxArgs: 0,
     callback: (message, arguments, text) => {
-        const embed = new Discord.MessageEmbed()
+        const test101 = new Discord.MessageEmbed()
         .setColor('#2CC4DB')
         .setTitle('Genshin Players UID & InGameName')
         .setDescription('Server: Asia')
@@ -41,6 +41,6 @@ module.exports = {
             { name: 'Itachi [WL-5]', value: '808861203', inline: true },
             { name: 'Mr.Bot [WL-5]', value: '801374737', inline: true },
         )
-        message.channel.send(embed)
+        message.channel.send(test101)
     },
   }
