@@ -10,7 +10,7 @@ const config = require('./config.json')
 
 //Client Check Log
 client.on('ready', async () => {
-  console.log('The client is ready!')
+  console.log('Kathe Chellam is Ready to work Checking with...')
 
   loadCommands(client)
   roleClaim(client)
