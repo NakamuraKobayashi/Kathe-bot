@@ -18,7 +18,6 @@ client.on('ready', async () => {
   welcome(client)
 })
 
-client.user.setActivity("Genshin Impact"); 
-
 client.login(process.env.DJS_TOKEN)
+client.user.setActivity("Genshin Impact")
 //client.login("Nzg2NDIwMTkyMDQwNTgzMjQ4.X9GI4A.GFdcuFoGthRYcVcm3po5mdOqjzo")
