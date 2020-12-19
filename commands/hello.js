@@ -5,5 +5,6 @@ module.exports = {
     maxArgs: 0,
     callback: (message, arguments, text) => {
         let reply = 'Poda Angutu'
+        message.channel.send(reply)
     },
   }
