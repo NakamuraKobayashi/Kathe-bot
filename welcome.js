@@ -3,9 +3,9 @@ module.exports = (client) => {
   const targetChannelId = '787688808006287400' // rules and info
 
   client.on('guildMemberAdd', (member) => {
-    const message = `Please welcome <@${
+    const message = `Welcome to Our Genshin Impact Server <@${
       member.id
-    }> to the server! Please check out ${member.guild.channels.cache
+    }> Travelers, Claim your role ${member.guild.channels.cache
       .get(targetChannelId)
       .toString()}`
 
