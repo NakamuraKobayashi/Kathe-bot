@@ -1,7 +1,7 @@
 module.exports = {
     commands: 'status',
     description: "To Set Bot Status",
-    userPermissions: ['ADMINISTRATOR'],
+    userPermissions: ['Paimon Slave'],
     minArgs: 0,
     maxArgs: 0,
     callback: (message, arguments, text) => {
