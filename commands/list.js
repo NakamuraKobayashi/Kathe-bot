@@ -18,8 +18,6 @@ module.exports = {
 
             /*World Level 6*/
             { name: 'Emilica [WL-6]', value: '802462774', inline: true },
-            { name: 'KiTsune13 [WL-6]', value: '800570605', inline: true },
-            { name: 'Amy-chan [WL-6]', value: '806236513', inline: true },
             { name: 'Rox [WL-6]', value: '808015934', inline: true },
             { name: 'Buju [WL-6]', value: '809196280', inline: true },
             { name: 'Rex [WL-6]', value: '806002485', inline: true },
