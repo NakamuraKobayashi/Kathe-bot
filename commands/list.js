@@ -10,7 +10,6 @@ module.exports = {
         .setColor('#2CC4DB')
         .setTitle('Genshin Players UID & InGameName')
         .setDescription('Server: Asia')
-        .setFooter('1/2 Page. Type "p!next" For Next Page')
         .addFields(
             /*World Level 7*/
             { name: 'Amy-chan [WL-7]', value: '806236513', inline: true },
@@ -47,7 +46,6 @@ module.exports = {
 
         const test102 = new Discord.MessageEmbed()
         .setColor('#2CC4DB')
-        .setFooter('2/2 Page. End of the List')
         .addFields(
             /*World Level 5*/
             { name: 'Chi [WL-5]', value: '809987177', inline: true },
