@@ -54,11 +54,11 @@ module.exports = {
             { name: 'Alfy [WL-5]', value: '811983046', inline: true },
             { name: 'Senseii [WL-5]', value: '808654297', inline: true },
             { name: 'AlbionHORDE [WL-5]', value: '812609271', inline: true },
+            { name: 'LordGrim [WL-5]', value: '817721784', inline: true },
 
             /*World Level 4*/
             { name: 'MehenraMizuki [WL-4]', value: '810584079', inline: true },
             { name: 'Quinn [WL-4]', value: '816643614', inline: true },
-            { name: 'LordGrim [WL-4]', value: '817721784', inline: true },
 
             /*World Level 3*/
             { name: 'Lara [WL-3]', value: '807250035', inline: true }, 
