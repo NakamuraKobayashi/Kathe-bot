@@ -30,6 +30,7 @@ module.exports = {
             { name: 'Rem [WL-6]', value: '811823820', inline: true },
             { name: 'JoFendo [WL-6]', value: '805376530', inline: true },
             { name: 'Chrzn [WL-6]', value: '806497214', inline: true },
+            { name: 'PANDA [WL-6]', value: '814949855', inline: true },
 
             /*World Level 5*/
             { name: 'TetRun [WL-5]', value: '802110210', inline: true },
