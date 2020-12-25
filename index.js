@@ -13,14 +13,7 @@ const welcome = require('./welcome')
 client.on('ready', async () => {
   console.log('Kathe Chellam is Ready to work Checking with...')
 
-  const activities = [
-    `${this.client.guild.cache.size} servers!`,
-    `${this.client.channels.cache.size} channels!`,
-    `${this.client.guild.cache.reduce((a, b) => a + b.memberCount, 0)} users!`
-  ];
-
-  let i = 0;
-  setInterval(() => this.client.user.setActivity(`${this.client.prefix}help | ${activities[i++ % activities.length]}`, { type: 'WATCHING' }), 15000);
+  client.user.setActivity('GENSHIN IMPACT');
 
   loadCommands(client)
   roleClaim(client)
