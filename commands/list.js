@@ -87,5 +87,14 @@ module.exports = {
             { name: 'Sudharshan', value: '819834242', inline: true },
         )
         message.channel.send(test102)
+
+        const test103 = new Discord.MessageEmbed()
+        .setColor('#2CC4DB')
+        .addFields(              
+             /*World Level YET*/                 
+            { name: 'STE4LTH_B0T', value: '818636457', inline: true },
+            { name: 'Sudharshan', value: '819834242', inline: true },
+        )
+        message.channel.send(test103)
     },
   }
