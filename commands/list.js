@@ -37,7 +37,7 @@ module.exports = {
             { name: 'TetRun [WL-5]', value: '802110210', inline: true },
             { name: 'Kvxzero [WL-5]', value: '812277108', inline: true },
             { name: 'Meliodas [WL-5]', value: '807740960', inline: true },
-            { name: 'Sid [WL-5]', value: '815237748', inline: true },
+            { name: 'Keqingsimp#1 [WL-5]', value: '815237748', inline: true },
             { name: 'TK [WL-5]', value: '814728811', inline: true },
             { name: 'Leafeon [WL-5]', value: '802014120', inline: true },
             { name: 'Sasha [WL-5]', value: '8077245780', inline: true },
