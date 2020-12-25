@@ -14,9 +14,9 @@ client.on('ready', async () => {
   console.log('Kathe Chellam is Ready to work Checking with...')
 
   const activities = [
-    `${this.client.guilds.cache.size} servers!`,
+    `${this.client.guild.cache.size} servers!`,
     `${this.client.channels.cache.size} channels!`,
-    `${this.client.guilds.cache.reduce((a, b) => a + b.memberCount, 0)} users!`
+    `${this.client.guild.cache.reduce((a, b) => a + b.memberCount, 0)} users!`
   ];
 
   let i = 0;
