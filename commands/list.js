@@ -84,6 +84,7 @@ module.exports = {
              /*World Level YET*/                 
             { name: 'Coochieman', value: '811714646', inline: true },
             { name: 'STE4LTH_B0T', value: '818636457', inline: true },
+            { name: 'Sudharshan', value: '819834242', inline: true },
         )
         message.channel.send(test102)
     },
