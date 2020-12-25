@@ -31,6 +31,7 @@ module.exports = {
             { name: 'JoFendo [WL-6]', value: '805376530', inline: true },
             { name: 'Chrzn [WL-6]', value: '806497214', inline: true },
             { name: 'PANDA [WL-6]', value: '814949855', inline: true },
+            { name: 'Railscythe [WL-6]', value: '810976192', inline: true },
 
             /*World Level 5*/
             { name: 'TetRun [WL-5]', value: '802110210', inline: true },
@@ -40,7 +41,6 @@ module.exports = {
             { name: 'TK [WL-5]', value: '814728811', inline: true },
             { name: 'Leafeon [WL-5]', value: '802014120', inline: true },
             { name: 'Sasha [WL-5]', value: '8077245780', inline: true },
-            { name: 'Anand [WL-5]', value: '805943182', inline: true },
         )
         message.channel.send(test101)
 
@@ -48,6 +48,7 @@ module.exports = {
         .setColor('#2CC4DB')
         .addFields(
             /*World Level 5*/
+            { name: 'Anand [WL-5]', value: '805943182', inline: true },
             { name: 'Itachi [WL-5]', value: '808861203', inline: true },
             { name: 'Mr.Bot [WL-5]', value: '801374737', inline: true },
             { name: 'Chi [WL-5]', value: '809987177', inline: true },
