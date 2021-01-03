@@ -13,7 +13,7 @@ const welcome = require('./welcome')
 client.on('ready', async () => {
   console.log('Kathe Chellam is Ready to work Checking with...')
 
-  client.user.setActivity('Genshin Impact | 52 Travalers');
+  client.user.setActivity('Genshin Impact | 54 Travalers');
 
   loadCommands(client)
   roleClaim(client)
