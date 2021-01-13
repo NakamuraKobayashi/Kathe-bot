@@ -8,7 +8,7 @@ module.exports = {
     callback: (message, arguments, text) => {
         const test101 = new Discord.MessageEmbed()
         .setColor('#2CC4DB')
-        .setTitle('Genshin Players UID & InGameName')
+        .setTitle('Server Genshin Players UID | InGameName')
         .setDescription('Server: Asia')
         .addFields(
             /*World Level 7*/
@@ -37,7 +37,7 @@ module.exports = {
             { name: 'TetRun', value: '802110210', inline: true },
             { name: 'Kvxzero', value: '812277108', inline: true },
             { name: 'Meliodas', value: '807740960', inline: true },
-            { name: 'Keqingsimp#1', value: '815237748', inline: true },
+            { name: 'Xiaosimp#1', value: '815237748', inline: true },
             { name: 'TK', value: '814728811', inline: true },
             { name: 'Leafeon', value: '802014120', inline: true },
             { name: 'Sasha', value: '8077245780', inline: true },
