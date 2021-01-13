@@ -9,7 +9,7 @@ module.exports = {
         const help = new Discord.MessageEmbed()
         .setColor('#EC407A')
         .setTitle('Katheryne Commands')
-        .setDescription('Server: Asia | These are the Katheryune Commands')
+        .setDescription('Server: Asia | Dont Bully Me Travaler')
         .addFields(
             { name: 'Fun Commands - 4', value: '`hello`,`vaada`,`skip`,`pity`' },
             { name: 'List All Players UID:', value: '`list, l`' },
