@@ -12,8 +12,8 @@ module.exports = {
         .setDescription('Server: Asia | These are the Katheryune Commands')
         .addFields(
             { name: 'Fun Commands - 4', value: '`hello`,`vaada`,`skip`,`pity`' },
-            { name: 'List All Players UID:', value: '`list`' },
-            { name: 'Bot Commands: ', value: '`help`' },
+            { name: 'List All Players UID:', value: '`list, l`' },
+            { name: 'Bot Commands: ', value: '`help, l`' },
         )
         message.channel.send(help)
     },
