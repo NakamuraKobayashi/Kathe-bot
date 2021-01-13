@@ -1,5 +1,5 @@
 module.exports = {
-    commands: ['hello', 'h'],
+    commands: ['hello', 'h', 'Hello'],
     description: "Fun Command #1",
     minArgs: 0,
     maxArgs: 0,
