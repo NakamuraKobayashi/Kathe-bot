@@ -1,6 +1,6 @@
 module.exports = {
-    commands: 'hello',
-    description: "Fun Command",
+    commands: ['hello', 'h'],
+    description: "Fun Command #1",
     minArgs: 0,
     maxArgs: 0,
     callback: (message, arguments, text) => {

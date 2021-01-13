@@ -1,47 +1,20 @@
-const loadCommands = require('./load-commands')
-const { prefix } = require('../config.json')
+const Discord = require('discord.js')
 
 module.exports = {
-  commands: ['help', 'h'],
-  description: "Describes all of this bot's commands",
-  callback: (message, arguments, text) => {
-    let reply = 'My Name is Katheryne, I Am Here to Help you out ***Traveler***\n\n'
-
-    const commands = loadCommands()
-
-    for (const command of commands) {
-      // Check for permissions
-      let permissions = command.permission
-
-      if (permissions) {
-        let hasPermission = true
-        if (typeof permissions === 'string') {
-          permissions = [permissions]
-        }
-
-        for (const permission of permissions) {
-          if (!message.member.hasPermission(permission)) {
-            hasPermission = false
-            break
-          }
-        }
-
-        if (!hasPermission) {
-          continue
-        }
-      }
-
-      // Format the text
-      const mainCommand =
-        typeof command.commands === 'string'
-          ? command.commands
-          : command.commands[0]
-      const args = command.expectedArgs ? ` ${command.expectedArgs}` : ''
-      const { description } = command
-
-      reply += `**${prefix}${mainCommand}${args}** = ${description}\n`
-    }
-
-    message.channel.send(reply)
-  },
-}
+    commands: ['list', 'l'],
+    description: "Displays All Genshin Players List",
+    minArgs: 0,
+    maxArgs: 0,
+    callback: (message, arguments, text) => {
+        const help = new Discord.MessageEmbed()
+        .setColor('#2CC4DB')
+        .setTitle('Katheryne Commands')
+        .setDescription('Server: Asia | These are the Katheryune Commands')
+        .addFields(
+            { name: 'Fun Commands - 4', value: '`hello`,`vaada`,`skip`,`pity`' },
+            { name: 'List All UID -', value: '`list`' },
+            { name: 'Bot Commands - ', value: '`help`' },
+        )
+        message.channel.send(help)
+    },
+  }

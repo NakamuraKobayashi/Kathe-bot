@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 
 module.exports = {
-    commands: 'list',
+    commands: ['list', 'l'],
     description: "Displays All Genshin Players List",
     minArgs: 0,
     maxArgs: 0,
