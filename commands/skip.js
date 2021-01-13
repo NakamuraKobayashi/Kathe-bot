@@ -1,5 +1,5 @@
 module.exports = {
-    commands: 'hello',
+    commands: 'skip',
     description: "Fun Command #3",
     minArgs: 0,
     maxArgs: 0,
