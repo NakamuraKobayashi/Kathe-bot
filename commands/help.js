@@ -7,7 +7,7 @@ module.exports = {
     maxArgs: 0,
     callback: (message, arguments, text) => {
         const help = new Discord.MessageEmbed()
-        .setColor('#2CC4DB')
+        .setColor('#EC407A')
         .setTitle('Katheryne Commands')
         .setDescription('Server: Asia | These are the Katheryune Commands')
         .addFields(
