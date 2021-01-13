@@ -1,6 +1,6 @@
 module.exports = {
-    commands: ['vaada', 'vaa'],
-    description: "Fun Commands #2",
+    commands: ['pity'],
+    description: "Fun Commands #4",
     minArgs: 0,
     maxArgs: 0,
     callback: (message, arguments, text) => {
