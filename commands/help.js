@@ -15,7 +15,7 @@ module.exports = {
             { name: 'List All Players UID:', value: '`list, l`' },
             { name: 'Bot Commands: ', value: '`help, h`' },
         )
-        .setFooter('Use p! Before Any Commands | Example: p!hello');
+        .setFooter('Use p! Before Any Command | Example: p!hello');
         message.channel.send(help)
     },
   }
