@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 
 module.exports = {
-    commands: ['help', 'help'],
+    commands: ['help'],
     description: "Katheryne Commands",
     minArgs: 0,
     maxArgs: 0,
